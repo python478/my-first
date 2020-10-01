@@ -1,0 +1,11 @@
+for hello world in python 
+print("hello world")
+n = int(input("enter a number "))
+temp_var = ""
+i = 0 #(work as indexing)
+while i < len(name):   #(name of len - 1 = 9 coz start with zero)
+    if name[i] not in temp_var:
+        temp_var += name[i]
+        print(f"{name[i]} : {name.count(name[i])}")  # i = 0 (also incresing value of i) # name[i] is charecter (example ;- (f"hello {name}") hello is charecter
+    i+=1   
+ 
