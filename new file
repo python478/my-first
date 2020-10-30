@@ -1,0 +1,32 @@
+# use these two tables arithmetic operators in python and precedence rule table for below code
+print(2+5)
+print(2+5*7)
+print(2/4)  # output 0.5 floating point divison (always use simple divison /)
+print(4/2)  # output 2.0 floating point divison
+print(4//2) #integer divison
+print(2//4)  #integer divison output 0 remove floating point number like (2/4)=0.5
+print(2**4) #exponent power of 2 is 4 (2*2*2*2)
+print(2**0.5) # find route 2 (under route value is 1/2 and 1/2 is 0.5 then power of 2 is 0.5)
+# output of line 8 is big value 1.41421356237 so let's short value after decimal we can use round function)
+print(round(2**0.5,4)) # for round coma, after round value and enter value how many degites to round we put 4
+print(5%2) # %(modulo) give remainder value 5/2=1 or 40/9=4 give sum of total number of route(last/down total)
+print(40%9)
+print((2+3)*2)  
+# line 13 apply precedence rule first calculate parenthes means bracate()
+# (2+3)=5*2=10
+print((2+3)/2) # 2+3=5/2=2.5 precedence rule priority parenthese means bracate()
+print((2+3)*5/2%6) # apply associativity rule 
+#first parenthese (2+3)=5
+# 5 * 5 / 2 % 6  associativity rule *,/,//,% (LEFT TO RIGHT)
+#25 / 2 % 6
+# 25/2 % 6 
+# 12.5 % 6=0.5
+# all associativity LIKE (*,/,//,%,+,-) is LEFT TO RIGHT but only EXPONENTS associativity is RIGHT TO LEFT
+# EXPONENTS (we get more then one exponent(*) in single code then we use exponent rule)
+print(2**3**2) #(EXPONENT WE GO RIGHT TO LEFT)
+# 3**2=9 (always take middel value first for power (middel to right))
+#2**9=512
+print(4**2**3)
+# 2**3=8
+#4**8=65536
+
